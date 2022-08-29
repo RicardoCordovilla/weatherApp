@@ -1,0 +1,17 @@
+.cardWeather{
+    z-index: 1;
+    padding: 1rem;
+    
+}
+
+.contryInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1em;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    gap: 1em;
+}
