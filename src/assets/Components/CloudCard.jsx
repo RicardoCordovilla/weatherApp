@@ -135,7 +135,7 @@ const CloudCard = ({ cloud, temp, city, country, setSearch, setCitySearch, setAu
         <div className="weather">
           <div className="sunBack" style={sunStyle}></div>
           <div className="imgCloud">
-            <img src="./src/assets/images/cloud2.png" alt=""
+            <img src="./images/cloud2.png" alt=""
               style={cloudStyle}
             />
             <span className='numCloud'>Clouds: {cloud}</span>

@@ -12,22 +12,22 @@ const CardInfo = ({info}) => {
     <div className='cardInfo'>
       <div className="infoBx">
         <span>Feels</span>
-        <img className='infoIcon' src="./src/assets/images/temperature.svg" alt="" />
+        <img className='infoIcon' src="./images/temperature.svg" alt="" />
         <span>{info?.main.feels_like}</span>
       </div>
       <div className="infoBx">
         <span>Pressure</span>
-        <img className='infoIcon' src="./src/assets/images/pressure.webp" alt="" />
+        <img className='infoIcon' src="./images/pressure.webp" alt="" />
         <span>{info?.main.pressure}</span>
       </div>
       <div className="infoBx">
         <span>Humidity</span>
-        <img className='infoIcon' src="./src/assets/images/humidity.png" alt="" />
+        <img className='infoIcon' src="./images/humidity.png" alt="" />
         <span>{info?.main.humidity}</span>
       </div>
       <div className="infoBx">
         <span>Wind</span>
-        <img className='infoIcon' src="./src/assets/images/wind.png" alt="" />
+        <img className='infoIcon' src="./images/wind.png" alt="" />
         <span>{info?.wind.speed}</span>
       </div>
 

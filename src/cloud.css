@@ -1,19 +1,21 @@
 .cardCloud {
-    z-index: 0;
+    z-index: 3;
     display: flex;
     flex-direction: row;
     position: relative;
     width: 60vw;
     height: 50vh;
     border-radius: 16px;
-    /* background: src('assets/images/cloud1.png'); */
-
+    
     box-shadow: 3px 3px 10px 2px #77f inset,
-        1px 1px 10px 3px #1af;
-
+    1px 1px 10px 3px #1af;
+    background: transparent;
+    overflow: visible;
+    
 }
 
 .glass {
+    border-radius: 16px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -171,8 +173,7 @@ progress {
 
 .weather {
     width: 50%;
-    background-color: rgba(100, 100, 100, 0.6);
-
+    overflow: hidden;
 }
 
 .numCloud {
